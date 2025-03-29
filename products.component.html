@@ -1,7 +1,0 @@
-<h1>Nuestros Productos</h1>
-<ul>
-  <li *ngFor="let product of products">
-    {{ product.name }} - {{ product.price | currency }}
-    <button [routerLink]="['/product', product.id]">Ver Detalle</button>
-  </li>
-</ul>
