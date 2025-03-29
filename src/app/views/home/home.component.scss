@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+  }
+  
+  .welcome-card {
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  mat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  mat-card-content {
+    font-size: 1.1rem;
+    margin: 15px 0;
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: center;
+  }
+  
